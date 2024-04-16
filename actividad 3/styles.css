@@ -1,0 +1,93 @@
+a{
+    padding: 0 10px;
+    
+}
+
+.welcome{
+    width: 100%;
+    height: 600px;
+    background: url(./img/perromdinicio.jpg) no-repeat center;
+    background-size: cover;
+} 
+
+.cards-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.card {
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+
+}
+
+.card-img-top {
+    height: 70%;
+    object-fit: scale-down;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-body h5 {
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.index-main-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+    padding: 20px;
+    
+}
+
+.dog-details {
+   
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content:center; 
+    align-items: center;
+    margin-top: 50PX;
+    width: auto;
+   
+    
+}
+
+.dog-details h1 {
+    align-self: center;
+}
+
+.dog-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: large;
+    font-weight: 600;
+    align-items: center;
+    margin-left: 25px;
+    
+}
+
+.dog-inner img {
+    max-width: 400px;
+    max-height: auto;
+}
+
+ .dog-details a {
+    text-decoration: none;
+    color: white
+}
+ 

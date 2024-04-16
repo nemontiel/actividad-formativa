@@ -1,0 +1,75 @@
+h1,h2,h3,h4,h5{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2,h3,h4,h5{
+    font-size: 30px;
+}
+header{
+    text-align: center;
+    font-weight: 100;
+    padding-inline: 15%;
+}
+.ulindex{
+    padding-left: 20%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container2 ul{
+    font-weight: 100;
+    
+
+
+}
+.container2 ul li{
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 60%;
+    margin-left: 18%;  
+}
+.container2{
+    display: flex;
+    text-align: left;
+   
+    
+}
+.perros{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 34.5%;
+
+}
+.gatos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 27%;
+}
+.btn-Max{
+    margin-right: 10px;
+}
+.btn-Raul{
+    margin-right: 12px;
+
+}
+.vinculo{
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 10px;
+    }
+}
